@@ -56,10 +56,35 @@ internal abstract class ClientBase
         HttpRequestMessage httpRequestMessage,
         CancellationToken cancellationToken)
     {
+        // Log the request details
+        if (this.Logger.IsEnabled(LogLevel.Debug))
+        {
+            var requestContent = httpRequestMessage.Content != null
+                ? await httpRequestMessage.Content.ReadAsStringAsync(cancellationToken).ConfigureAwait(false)
+                : "No content";
+            this.Logger.LogDebug("=== GEMINI HTTP REQUEST ===");
+            this.Logger.LogDebug("Method: {Method}", httpRequestMessage.Method);
+            this.Logger.LogDebug("URI: {Uri}", httpRequestMessage.RequestUri);
+            this.Logger.LogDebug("Headers: {Headers}", string.Join(", ", httpRequestMessage.Headers.ToString()));
+            this.Logger.LogDebug("Content: {Content}", requestContent);
+            this.Logger.LogDebug("=== END REQUEST ===");
+        }
+
         using var response = await this.HttpClient.SendWithSuccessCheckAsync(httpRequestMessage, cancellationToken)
             .ConfigureAwait(false);
         var body = await response.Content.ReadAsStringWithExceptionMappingAsync(cancellationToken)
             .ConfigureAwait(false);
+
+        // Log the response details
+        if (this.Logger.IsEnabled(LogLevel.Debug))
+        {
+            this.Logger.LogDebug("=== GEMINI HTTP RESPONSE ===");
+            this.Logger.LogDebug("Status: {StatusCode}", response.StatusCode);
+            this.Logger.LogDebug("Headers: {Headers}", string.Join(", ", response.Headers.ToString()));
+            this.Logger.LogDebug("Body: {Body}", body);
+            this.Logger.LogDebug("=== END RESPONSE ===");
+        }
+        
         return body;
     }
 
