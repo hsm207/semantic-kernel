@@ -1,1 +1,150 @@
-Ly8gQ29weXJpZ2h0IChjKSBNaWNyb3NvZnQuIEFsbCByaWdodHMgcmVzZXJ2ZWQuCgoKdXNpbmcgU3lzdGVtOwppbXBvcnQgU3lzdGVtLk5ldC5IdHRwOwppbXBvcnQgU3lzdGVtLk5ldC5IdHRwLkhlYWRlcnM7CmltcG9ydCBTeXN0ZW0uVGV4dC5Kc29uOwppbXBvcnQgU3lzdGVtLlRocmVhZGluZzsKaW1wb3J0IFN5c3RlbS50aHJlYWRpbmcudGFza3M7CmltcG9ydCBTeXN0ZW0udGhyZWFkaW5nOwppbXBvcnQgTWljcm9zb2Z0LkV4dGVuc2lvbnMubG9nZ2luOwppbXBvcnQgTWljcm9zb2Z0LkV4dGVuc2lvbnMubG9nZ2luLkFic3RyYWN0aW9uczsbCgppdGVybmFtZXNwYWNlIE1pY3Jvc29mdC5TZW1hbnRpY0tlcm5lbC5Db25uZWN0b3JzLk9nb3RvLkNvcmU7CgoKaW50ZXJuYWwgYWJzdHJhY3QgY2xhc3MgQ2xpZW50QmFzZQp7CiAgICBwcml2YXRlIHJlYWRvbmx5IEZ1bmM8VmFsdWVUYXNrdG9TdHJpbmcnPj8gX2JlYXJlclRva2VuUHJvdmlkZXI7CiAgICBwcml2YXRlIHJlYWRvbmx5IHN0cmluZz8gX2FwaUtleTsKCiAgICBwcm90ZWN0ZWQgSW5zdGFuY2VsQmFzZSBMb2dnZXIgTG9nZ2VyIHsgZ2V0OyB9CgogICAgcHJvdGVjdGVkIEh0dHBDbGllbnQgSHR0cENsaWVudCB7IGdldDsgfQoKICAgIHByb3RlY3RlZCBDbGllbnRCYXNlKAogICAgICAgICAgSFRUQ0xpZW50IGh0dHBDbGllbnQsCiAgICAgICAgICAgIExpbG9nZ2VyPyBsb2dnZXIsCiAgICAgICAgICAgIEZ1bmM8VmFsdWVUYXNrdG9TdHJpbmcnPiBiZWFyZXJUb2tlblByb3ZpZGVyKQogICAgICAgICAgOiB0aGlzKGh0dHBDbGllbnQsIGxvZ2dlcikKICAgIHsKICAgICAgICBWZXJpZnkubm90TmV1bGxiIGJlYXJlclRva2VuUHJvdmlkZXI7CiAgICAgICAgdGhpcy5fYmVhcmVyVG9rZW5Qcm92aWRlciA9IGJlYXJlclRva2VuUHJvdmlkZXI7CiAgICB9CgogICAgcHJvdGVjdGVkIENsaWVudEJhc2UoCiAgICAgICAgSFRUQ0xpZW50IGh0dHBDbGllbnQsCiAgICAgICAgbG9nZ2VyPyBsb2dnZXIsCiAgICAgICAgc3RyaW5nPyBhcGlLZXkgPSBudWxsKQogICAgKSB7CiAgICAgICAgVmVyaWZ5Lk5vdE51bGwoaHR0cENsaWVudCk7CgogICAgICAgIHRoaXMuSHR0cENsaWVudCA9IGh0dHBDbGllbnQ7CiAgICAgICAgdGhpcy5Mb2dnZXIgPSBsb2dnZXIgPyBOb3VMb2dnZXIuSW5zdGFuY2U7CiAgICAgICAgdGhpcy5fYXBpS2V5ID0gYXBpS2V5OwogICAgfQoKICAgIHByb3RlY3RlZCBzdGF0aWMgdm9pZCBWYWxpZGF0ZU1heFRva2VucyhpbnQ/IHBheE5ha2UpCiAgICB7CiAgICAgICAgLy8gSWYgbWF4VG9rZW5zIGlzIG51bGwsIGl0IG1lYW5zIHRoYXQgdGhlIHVzZXIgd2FudHMgdG8gdXNlIHRoZSBkZWZhdWx0IG1vZGVsIHZhbHVlCiAgICAgICAgaWYgKG1heFRva2VucyBpcyA8IDEpCiAgICAgICAgewogICAgICAgICAgICB0aHJvdyBuZXcgQXJndW1lbnRFeGNlcHRpb24oJE1heFRva2VucyAke21heFRva2VufSkgIGlzIG5vdCB2YWxpZCwgdGhlIHZhbHVlIG11c3QgYmUgZ3JlYXRlciB0aGFuIHplcm8iKTsKICAgICAgICB9CiAgICB9CgogICAgcHJvdGVjdGVkIGFzeW5jIFRhc2s8c3RyaW5nPiBTZW5kUmVxdWVzdEFuZEdldFN0cmluZ0JvZHlBc3luYyhJbm5lckVuZCByZXF1ZXN0TWVzc2FnZSwKICAgICAgICAgICAgQ2FuY2VsbGF0aW9uVG9rZW4gY2FuY2VsbGF0aW9uVG9rZW4pCiAgICB7CiAgICAgICAgLy8gTG9nIHRoZSByZXF1ZXN0IGRldGFpbHMKICAgICAgICBpZiAodGhpcy5Mb2dnZXIuSXNFbmFibGVkKExpbmVsbGV2ZWwpKSB7CiAgICAgICAgICAgIHZhciByZXF1ZXN0Q29udGVudCA9IGh0dHBSZXF1ZXN0TWVzc2FnZS5Db250ZW50ICE9IG51bGwKICAgICAgICAgICAgICAgID8gYXdhaXQgYXdhaXQgYXdhaXQKICAgICAgICAgICAgICAgIDogIk5vIGNvbnRlbnQiOwogICAgICAgICAgICB0aGlzLkRhdGEubG9nZEdlQnVnKExpbmUbQ29udGVudCksCiAgICAgICAgICAgICAgICB0aGlzLkxvZ2dlci5Mb2dEZWJ1ZygpOwogICAgICAgICAgICB9CgogICAgICAgIHVzaW5nIHZhciByZXNwb25zZSA9IGF3YWl0IHRoaXMuSHR0cENsaWVudC5TZW5kV2l0aFN1Y2Nlc3NEY2hlY2tBc3luYyhodHRwUmVxdWVzdE1lc3NhZ2UsIGNhbmNlbGxhdGlvblRva2VuKQogICAgICAgICAgIC5Db25maWd1cmVhdGUoZmFsc2UpOwogICAgICAgIHZhciBib2R5ID0gYXdhaXQgcmVzcG9uc2UuQ29udGVudC5SZWFkU3RyaW5nV2l0aEV4Y2VwdGlvbk1hcHBpbmdBc3luKGNhbmNlbGxhdGlvblRva2VuKQogICAgICAgICAgICAuQ29uZmlndXJlKGZhbHNlKTsKCiAgICAgICAgLy8gTG9nIHRoZSByZXNwb25zZSBkZXRhaWxzCiAgICAgICAgaWYgKHRoaXMuTG9nZ2VyLklzRW5hYmxlZChMb2dMZXZlbC5EZWJ1ZykpCiAgICAgICAgewogICAgICAgICAgICB0aGlzLkxvZ2dlci5Mb2dEZWJ1ZygpOwogICAgICAgICAgICB0aGlzLkxvZ2dlci5Mb2dEZWJ1ZygiP09FIyBGZW5kIE1lc3NhZ2UiKTsKICAgICAgICAgICAgdGhpcy5Mb2dnZXIuTG9nRGVidWcoIk1ldGhvZDogeyBNZXRob2QgfSIsIGh0dHBSZXF1ZXN0TWVzc2FnZS5NZXRob2QpOwogICAgICAgICAgICB0aGlzLkxvZ2dlci5Mb2dEZWJ1ZygiVVJJOiB7VXJpIH0iLCAodGh0cFJlcXVlc3RNZXNzYWdlLkV0Yyk7CiAgICAgICAgICAgIHRoaXMuTG9nZ2VyLkxvZ0RlYnVnKClbCiAgICAgICAgfQoKICAgICAgICB1c2luZyB2YXIgcmVzcG9uc2UgPSBhd2FpdCB0aGlzLkh0dHBDbGllbnQuU2VuZFdpdGhTdWNjZXNzQ2hlY2tBc3luKGh0dHBSZXF1ZXN0TWVzc2FnZSwgY2FuY2VsbGF0aW9uVG9rZW4pCiAgICAgICAgICAgIC5Db25maWd1cmUoZmFsc2UpOwogICAgICAgIHZhciBib2R5ID0gYXdhaXQgcmVzcG9uc2UuQ29udGVudC5SZWFkU3RyaW5nV2l0aEV4Y2VwdGlvbk1hcHBpbmdBc3luKGNhbmNlbGxhdGlvblRva2VuKQogICAgICAgICAgICAuQ29uZmlndXJlKGZhbHNlKTsKCiAgICAgICAgLy8gTG9nIHRoZSByZXNwb25zZSBkZXRhaWxzCiAgICAgICAgaWYgKHRoaXMuTG9nZ2VyLklzRW5hYmxlZChMb2dMZXZlbC5EZWJ1ZykpCiAgICAgICAgewogICAgICAgICAgICB0aGlzLkxvZ2dlci5Mb2dEZWJ1ZygpOwogICAgICAgICAgICB0aGlzLkxvZ2dlci5Mb2dEZWJ1Zygic3RhdHVzOiB7U3RhdHVzQ29kZX0iLCAoc3RhdHVzKQogICAgICAgICAgICB0aGlzLkxvZ2dlci5Mb2dEZWJ1ZygiSGVhZGVyczoge1siLCB0aGlzLkhlYWRlcnMuVG9TdHJpbmcoKSkgOwogICAgICAgICAgICB0aGlzLkxvZ2dlci5Mb2dEZWJ1ZygiQm9keToge0JvZHl9IiwgYm9keKTsKICAgICAgICAgICAgdGhpcy5Mb2dnZXIuTG9nRGVidWcoIik7CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gYm9keTsKICAgIH0KCiAgICBwcm90ZWN0IGFzeW5jIFRhc2s8SFRUVFJlc3BvbnNlTWVzc2FnZT4gU2VuZFJlcXVlc3RBbmRHZXRJbnN0YW50TGFpbHlIZWFkZXNSZWFkQ29uZmlncmF0b3IobmV3KSB7CiAgICAgICAgdmFyIHJlc3BvbnNlID0gYXdhaXQgdGhpcy5IdHRwQ2xpZW50LlNlbmRXaXRoU3VjY2Vzc0NoZWNrQXN5bmNDb21tYW5kIChodHRwUmVxdWVzdE1lc3NhZ2UsIHRva2VuKQogICAgICAgICAgICAKICAgICAgICAgICAgLkNvbmZpZ3VyZShmYWxzZSk7CiAgICAgICAgcmV0dXJuIHJlc3BvbnNlOwp9CgogICAgcHJvdGVjdGVkIHN0YXRpYyBUIERlc2VyaWFsaXplUmVzcG9uc2U8Vj4oc3RyaW5nIGJvZHkKICAgIHsKICAgICAgICB0cnkgewogICAgICAgICAgICByZXR1cm4gSnNvbklTcmlhbGl6ZXIuRGVzZXJpYWxpemU8Vj4oYm9keSkgfHwgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICB0aHJvdyBuZXcgSnNvblJlc3BvbmNlVGhyb3coIk1lc3NhZ2UgIGlzIG51bGwiLCAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgfSAgICAgICAgICAKICAgICAgICBjYXRjaCAoSnNvblJlc3BvbnNlIGV4Y2VwdGlvbikkCiAgICAgICAgewogICAgICAgICAgICB0aHJvdyBuZXcgS2VybmVsRXhjZXB0aW9uKCJVbmV4cGVjdGVkIHJlc3BvbnNlIGZyb20gbW9kZWwiLCBleGNsKQogICAgICAgICAgeyAgICAgICAgICB7CiAgICAgICAgICAgICAgICBEYXRhID0gezsgIE7CiAgICAgICAgICAgICAgICAgICAgICAgICA7CiAgICAgICAgICAgICB9LAoKICAgICAgICB9CgogICAgfQoKICAgIHByb3RlY3RlZCBhc3luYyBUYXNrPEhUVFJlcXVlc3RNZXNzYWdlPiBDcmVhdGVIdHRwUmVxdWVzdEFzeW5jKG9iamVjdCByZXF1ZXN0RGF0YSwgVXJpIGVuZHBvaW50KQogIHsKICAgICAgICB2YXIgIGh0dHBSZXF1ZXN0TWVzc2FnZSA9IEhUVFBSZXF1ZXN0LkNyZWF0ZVBvc3RSZXF1ZXQocmVxdWVzdERhdGEsIGVuZHBvaW50KTsKICAgICAgICBodHRwUmVxdWVzdE1lc3NhZ2UuSGVhZGVycy5BZGQoIlVzZXItQWdlbnQiLCBIdHRwSGVhZGVyQ29u
+﻿// Copyright (c) Microsoft. All rights reserved.
+
+using System;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text.Json;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
+using Microsoft.SemanticKernel.Http;
+
+namespace Microsoft.SemanticKernel.Connectors.Google.Core;
+
+internal abstract class ClientBase
+{
+    private readonly Func<ValueTask<string>>? _bearerTokenProvider;
+    private readonly string? _apiKey;
+
+    protected ILogger Logger { get; }
+
+    protected HttpClient HttpClient { get; }
+
+    protected ClientBase(
+        HttpClient httpClient,
+        ILogger? logger,
+        Func<ValueTask<string>> bearerTokenProvider)
+        : this(httpClient, logger)
+    {
+        Verify.NotNull(bearerTokenProvider);
+        this._bearerTokenProvider = bearerTokenProvider;
+    }
+
+    protected ClientBase(
+        HttpClient httpClient,
+        ILogger? logger,
+        string? apiKey = null)
+    {
+        Verify.NotNull(httpClient);
+
+        this.HttpClient = httpClient;
+        this.Logger = logger ?? NullLogger.Instance;
+        this._apiKey = apiKey;
+    }
+
+    protected static void ValidateMaxTokens(int? maxTokens)
+    {
+        // If maxTokens is null, it means that the user wants to use the default model value
+        if (maxTokens is < 1)
+        {
+            throw new ArgumentException($"MaxTokens {maxTokens} is not valid, the value must be greater than zero");
+        }
+    }
+
+    protected async Task<string> SendRequestAndGetStringBodyAsync(
+        HttpRequestMessage httpRequestMessage,
+        CancellationToken cancellationToken)
+    {
+        // Log the request details
+        if (this.Logger.IsEnabled(LogLevel.Debug))
+        {
+            var requestContent = httpRequestMessage.Content != null
+                ? await httpRequestMessage.Content.ReadAsStringAsync(cancellationToken).ConfigureAwait(false)
+                : "No content";
+            this.Logger.LogDebug("=== GEMINI HTTP REQUEST ===");
+            this.Logger.LogDebug("Method: {Method}", httpRequestMessage.Method);
+            this.Logger.LogDebug("URI: {Uri}", httpRequestMessage.RequestUri);
+            this.Logger.LogDebug("Headers: {Headers}", string.Join(", ", httpRequestMessage.Headers.ToString()));
+            this.Logger.LogDebug("Content: {Content}", requestContent);
+            this.Logger.LogDebug("=== END REQUEST ===");
+        }
+
+        using var response = await this.HttpClient.SendWithSuccessCheckAsync(httpRequestMessage, cancellationToken)
+            .ConfigureAwait(false);
+        var body = await response.Content.ReadAsStringWithExceptionMappingAsync(cancellationToken)
+            .ConfigureAwait(false);
+
+        // Log the response details
+        if (this.Logger.IsEnabled(LogLevel.Debug))
+        {
+            this.Logger.LogDebug("=== GEMINI HTTP RESPONSE ===");
+            this.Logger.LogDebug("Status: {StatusCode}", response.StatusCode);
+            this.Logger.LogDebug("Headers: {Headers}", string.Join(", ", response.Headers.ToString()));
+            this.Logger.LogDebug("Body: {Body}", body);
+            this.Logger.LogDebug("=== END RESPONSE ===");
+        }
+        
+        return body;
+    }
+
+    protected async Task<HttpResponseMessage> SendRequestAndGetResponseImmediatelyAfterHeadersReadAsync(
+        HttpRequestMessage httpRequestMessage,
+        CancellationToken cancellationToken)
+    {
+        var response = await this.HttpClient.SendWithSuccessCheckAsync(httpRequestMessage, HttpCompletionOption.ResponseHeadersRead, cancellationToken)
+            .ConfigureAwait(false);
+        return response;
+    }
+
+    protected static T DeserializeResponse<T>(string body)
+    {
+        try
+        {
+            return JsonSerializer.Deserialize<T>(body) ?? throw new JsonException("Response is null");
+        }
+        catch (JsonException exc)
+        {
+            throw new KernelException("Unexpected response from model", exc)
+            {
+                Data = { { "ResponseData", body } },
+            };
+        }
+    }
+
+    protected async Task<HttpRequestMessage> CreateHttpRequestAsync(object requestData, Uri endpoint)
+    {
+        var httpRequestMessage = HttpRequest.CreatePostRequest(endpoint, requestData);
+        httpRequestMessage.Headers.Add("User-Agent", HttpHeaderConstant.Values.UserAgent);
+        httpRequestMessage.Headers.Add(HttpHeaderConstant.Names.SemanticKernelVersion,
+            HttpHeaderConstant.Values.GetAssemblyVersion(typeof(ClientBase)));
+
+        if (this._bearerTokenProvider is not null && await this._bearerTokenProvider().ConfigureAwait(false) is { } bearerKey)
+        {
+            httpRequestMessage.Headers.Authorization =
+                new AuthenticationHeaderValue("Bearer", bearerKey);
+        }
+        else if (!string.IsNullOrWhiteSpace(this._apiKey))
+        {
+            httpRequestMessage.Headers.Add("x-goog-api-key", this._apiKey);
+        }
+
+        return httpRequestMessage;
+    }
+
+    protected static string GetApiVersionSubLink(GoogleAIVersion apiVersion)
+        => apiVersion switch
+        {
+            GoogleAIVersion.V1 => "v1",
+            GoogleAIVersion.V1_Beta => "v1beta",
+            _ => throw new NotSupportedException($"Google API version {apiVersion} is not supported.")
+        };
+
+    protected static string GetApiVersionSubLink(VertexAIVersion apiVersion)
+        => apiVersion switch
+        {
+            VertexAIVersion.V1 => "v1",
+            VertexAIVersion.V1_Beta => "v1beta1",
+            _ => throw new NotSupportedException($"Vertex API version {apiVersion} is not supported.")
+        };
+}
