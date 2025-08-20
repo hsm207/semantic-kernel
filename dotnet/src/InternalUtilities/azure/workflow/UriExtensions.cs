@@ -42,7 +42,7 @@ internal static class FoundryWorkflowHelperExtensions
             // 1RP
             if (uriBuilder.Host.EndsWith("services.ai.azure.com", StringComparison.OrdinalIgnoreCase))
             {
-                var items = new ArrayList(uriBuilder.Path.Split(['/'], options: StringSplitOptions.RemoveEmptyEntries));
+                var items = new ArrayList(uriBuilder.Path.Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries));
                 if (items.Count > 3)
                 {
                     items.Insert(3, "workflows");
