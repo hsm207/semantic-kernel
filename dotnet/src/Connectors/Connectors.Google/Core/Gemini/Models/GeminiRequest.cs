@@ -359,6 +359,9 @@ internal sealed class GeminiRequest
 
         static void TransformOpenApi3Object(JsonObject obj)
         {
+            // Remove $comment keys recursively that Gemini rejects
+            RemoveCommentsRecursively(obj);
+
             if (obj.TryGetPropertyValue("additionalProperties", out _))
             {
                 obj.Remove("additionalProperties");
@@ -407,9 +410,29 @@ internal sealed class GeminiRequest
                             }
                         }
 
-                        // Recursively process nested objects
-                        TransformOpenApi3Object(propertyObj);
                     }
+                }
+            }
+        }
+
+        static void RemoveCommentsRecursively(JsonNode node)
+        {
+            if (node is JsonObject obj)
+            {
+                if (obj.ContainsKey("$comment"))
+                {
+                    obj.Remove("$comment");
+                }
+                foreach (var property in obj)
+                {
+                    RemoveCommentsRecursively(property.Value);
+                }
+            }
+            else if (node is JsonArray array)
+            {
+                foreach (var item in array)
+                {
+                    RemoveCommentsRecursively(item);
                 }
             }
         }
