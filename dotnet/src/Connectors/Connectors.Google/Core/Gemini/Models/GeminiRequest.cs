@@ -419,20 +419,23 @@ internal sealed class GeminiRequest
         {
             if (node is JsonObject obj)
             {
-                if (obj.ContainsKey("$comment"))
-                {
-                    obj.Remove("$comment");
-                }
+                obj.Remove("$comment");
                 foreach (var property in obj)
                 {
-                    RemoveCommentsRecursively(property.Value);
+                    if (property.Value != null)
+                    {
+                        RemoveCommentsRecursively(property.Value);
+                    }
                 }
             }
             else if (node is JsonArray array)
             {
                 foreach (var item in array)
                 {
-                    RemoveCommentsRecursively(item);
+                    if (item != null)
+                    {
+                        RemoveCommentsRecursively(item);
+                    }
                 }
             }
         }
