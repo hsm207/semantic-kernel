@@ -409,7 +409,6 @@ internal sealed class GeminiRequest
                                 }
                             }
                         }
-
                     }
                 }
             }

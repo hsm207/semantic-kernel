@@ -84,7 +84,7 @@ internal abstract class ClientBase
             this.Logger.LogDebug("Body: {Body}", body);
             this.Logger.LogDebug("=== END RESPONSE ===");
         }
-        
+
         return body;
     }
 
